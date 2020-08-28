@@ -5,14 +5,19 @@ body {
 	font-weight: 500;
 }
 
-h1, h2, h3, h4 {
+p {
+	font-size: 13px;
+}
+
+h3,
+h4 {
 	font-weight: 700;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+	font-size: 11px;
+	text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 44%);
 }
