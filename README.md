@@ -1,6 +1,6 @@
 # Article Preview Component
 
-![](https://img.shields.io/github/last-commit/mancillajonathan/ui-react-components?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/mancillajonathan/article-preview-component?style=for-the-badge)
 ![](https://img.shields.io/github/languages/top/mancillajonathan/article-preview-component?style=for-the-badge)
 ![](https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Fmancillajonathan.github.io%2Farticle-preview-component%2F)
 
