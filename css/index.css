@@ -146,6 +146,7 @@ p {
 	transition: ease-in 0.25s;
 }
 
+/* :target replace the JS code for displaying share section */
 .active-state:target {
 	visibility: visible;
 	opacity: 1;
@@ -181,4 +182,50 @@ a {
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-top: 10px solid var(--very-dark-grayish-blue);
+}
+
+/* MOBILE QUERY */
+
+@media screen and (max-width: 415px) {
+	html {
+		width: calc(100% - 22px);
+	}
+	.background {
+		flex-direction: column;
+		width: calc(100% - 35px);
+	}
+
+	.drawer {
+		width: 100%;
+		border-bottom-left-radius: 0;
+		border-top-right-radius: 7px;
+	}
+
+	.article {
+		padding: 20px 30px;
+		box-sizing: border-box;
+		border-bottom-left-radius: 7px;
+	}
+
+	.article-title {
+		font-size: 16px;
+	}
+
+	.user-share {
+		margin-top: 40px;
+	}
+
+	.attribution {
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.article br {
+		display: none;
+	}
+	.article p {
+		padding: 0;
+		margin: 0;
+	}
 }
